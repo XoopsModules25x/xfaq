@@ -60,8 +60,8 @@ switch ($op)
 			$obj->setVar("faq_topic", $_REQUEST["faq_topic"]);
 			$obj->setVar("faq_url", $_REQUEST["faq_url"]);
 			$obj->setVar("faq_open", $_REQUEST["faq_open"]);
-			$obj->setVar("faq_ansUser", $_REQUEST["faq_ansUser"]);
 			$obj->setVar("faq_submitter", $_REQUEST["faq_submitter"]);
+			$obj->setVar("faq_ansUser", $_REQUEST["faq_ansUser"]);
 			$obj->setVar("faq_date_created", strtotime($_REQUEST["faq_date_created"]));
 			$online = ($_REQUEST["faq_online"] == 1) ? "1" : "0";
 			$obj->setVar("faq_online", $online);
@@ -129,8 +129,8 @@ switch ($op)
 						<th align=\"center\">"._AM_XFAQ_FAQ_TOPIC."</th>
 						<th align=\"center\">"._AM_XFAQ_FAQ_URL."</th>
 						<th align=\"center\">"._AM_XFAQ_FAQ_OPEN."</th>
-						<th align=\"center\">"._AM_XFAQ_FAQ_ANSUSER."</th>
 						<th align=\"center\">"._AM_XFAQ_FAQ_SUBMITTER."</th>
+						<th align=\"center\">"._AM_XFAQ_FAQ_ANSUSER."</th>
 						<th align=\"center\">"._AM_XFAQ_FAQ_DATE_CREATED."</th>
 						<th align=\"center\">"._AM_XFAQ_FAQ_ONLINE."</th>
 						
@@ -150,20 +150,20 @@ switch ($op)
 					echo "<td align=\"center\">".$faq_topic1."</td>";	
 					echo "<td align=\"center\">".$faq_arr[$i]->getVar("faq_url")."</td>";	
 					echo "<td align=\"center\">".$faq_arr[$i]->getVar("faq_open")."</td>";	
-					echo "<td align=\"center\">".XoopsUser::getUnameFromId($faq_arr[$i]->getVar("faq_ansUser"),"S")."</td>";	
 					echo "<td align=\"center\">".XoopsUser::getUnameFromId($faq_arr[$i]->getVar("faq_submitter"),"S")."</td>";	
+					echo "<td align=\"center\">".XoopsUser::getUnameFromId($faq_arr[$i]->getVar("faq_ansUser"),"S")."</td>";	
 					echo "<td align=\"center\">".formatTimeStamp($faq_arr[$i]->getVar("faq_date_created"),"S")."</td>";	
 					
 					$online = $faq_arr[$i]->getVar("faq_online");
 				
 					if( $online == 1 ) {
-						echo "<td align=\"center\"><a href=\"./faq.php?op=update_online_faq&faq_id=".$faq_arr[$i]->getVar("faq_id")."&faq_online=0\"><img src=\"./../images/deco/on.gif\" border=\"0\" alt=\""._AM_XFAQ_ON."\" title=\""._AM_XFAQ_ON."\"></a></td>";	
+						echo "<td align=\"center\"><a href=\"./faq.php?op=update_online_faq&faq_id=".$faq_arr[$i]->getVar("faq_id")."&faq_online=0\"><img src=\"./../images/deco/on.png\" border=\"0\" alt=\""._AM_XFAQ_ON."\" title=\""._AM_XFAQ_ON."\"></a></td>";	
 					} else {
-						echo "<td align=\"center\"><a href=\"./faq.php?op=update_online_faq&faq_id=".$faq_arr[$i]->getVar("faq_id")."&faq_online=1\"><img src=\"./../images/deco/off.gif\" border=\"0\" alt=\""._AM_XFAQ_OFF."\" title=\""._AM_XFAQ_OFF."\"></a></td>";
+						echo "<td align=\"center\"><a href=\"./faq.php?op=update_online_faq&faq_id=".$faq_arr[$i]->getVar("faq_id")."&faq_online=1\"><img src=\"./../images/deco/off.png\" border=\"0\" alt=\""._AM_XFAQ_OFF."\" title=\""._AM_XFAQ_OFF."\"></a></td>";
 					}
 							echo "<td align=\"center\" width=\"10%\">
-								<a href=\"faq.php?op=edit_faq&faq_id=".$faq_arr[$i]->getVar("faq_id")."\"><img src=\"../images/deco/edit.gif\" alt=\""._AM_XFAQ_EDIT."\" title=\""._AM_XFAQ_EDIT."\"></a>
-								<a href=\"faq.php?op=delete_faq&faq_id=".$faq_arr[$i]->getVar("faq_id")."\"><img src=\"../images/deco/delete.gif\" alt=\""._AM_XFAQ_DELETE."\" title=\""._AM_XFAQ_DELETE."\"></a>
+								<a href=\"faq.php?op=edit_faq&faq_id=".$faq_arr[$i]->getVar("faq_id")."\"><img src=\"../images/deco/edit.png\" alt=\""._AM_XFAQ_EDIT."\" title=\""._AM_XFAQ_EDIT."\"></a>
+								<a href=\"faq.php?op=delete_faq&faq_id=".$faq_arr[$i]->getVar("faq_id")."\"><img src=\"../images/deco/delete.png\" alt=\""._AM_XFAQ_DELETE."\" title=\""._AM_XFAQ_DELETE."\"></a>
 							  </td>";
 				echo "</tr>";
 			}

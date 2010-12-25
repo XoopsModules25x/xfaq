@@ -25,12 +25,12 @@
 	
 	$modversion["name"] = "xfaq";
 	$modversion["version"] = 1.00;
-	$modversion["description"] = "xoops faq";
+	$modversion["description"] = "XOOPS FAQ";
 	$modversion["author"] = "Mojtaba Jamali";
 	$modversion["author_website_url"] = "http://mydolphin.ir";
 	$modversion["author_website_name"] = "";
 	$modversion["credits"] = "";
-	$modversion["license"] = "Dolphin";
+	$modversion["license"] = "GPL";
 	$modversion["release_info"] = "";
 	$modversion["release_file"] = "";
 	$modversion["manual"] = "";

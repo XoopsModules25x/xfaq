@@ -43,8 +43,8 @@
 			$this->initVar("faq_topic",XOBJ_DTYPE_INT,null,false,8);
 			$this->initVar("faq_url",XOBJ_DTYPE_TXTBOX,null,false);
 			$this->initVar("faq_open",XOBJ_DTYPE_INT,null,false,1);
-			$this->initVar("faq_ansUser",XOBJ_DTYPE_INT,null,false,8);
 			$this->initVar("faq_submitter",XOBJ_DTYPE_INT,null,false,10);
+			$this->initVar("faq_ansUser",XOBJ_DTYPE_INT,null,false,8);
 			$this->initVar("faq_date_created",XOBJ_DTYPE_INT,null,false,10);
 			$this->initVar("faq_online",XOBJ_DTYPE_INT,null,false,1);
 			
@@ -96,8 +96,8 @@
 			$form->addElement(new XoopsFormText(_AM_XFAQ_FAQ_URL, "faq_url", 50, 255, $this->getVar("faq_url")), false);
 			 $faq_open = $this->isNew() ? 1 : $this->getVar("faq_open");
 			$form->addElement(new XoopsFormRadioYN(_AM_XFAQ_FAQ_OPEN, "faq_open", $faq_open, _YES, _NO), true);
-			$form->addElement(new XoopsFormSelectUser(_AM_XFAQ_FAQ_ANSUSER, "faq_ansUser", false, $this->getVar("faq_ansUser"), 1, false), true);
 			$form->addElement(new XoopsFormSelectUser(_AM_XFAQ_FAQ_SUBMITTER, "faq_submitter", false, $this->getVar("faq_submitter"), 1, false), true);
+			$form->addElement(new XoopsFormSelectUser(_AM_XFAQ_FAQ_ANSUSER, "faq_ansUser", false, $this->getVar("faq_ansUser"), 1, false), true);
 			$form->addElement(new XoopsFormTextDateSelect(_AM_XFAQ_FAQ_DATE_CREATED, "faq_date_created", "", $this->getVar("faq_date_created")));
 			 $faq_online = $this->isNew() ? 1 : $this->getVar("faq_online");
 			$check_faq_online = new XoopsFormCheckBox(_AM_XFAQ_FAQ_ONLINE, "faq_online", $faq_online);

@@ -1,7 +1,7 @@
 <?php
 /**
  * ****************************************************************************
- * Module généré par TDMCreate de la TDM "http://www.tdmxoops.net"
+ * Module gÃ©nÃ©rÃ© par TDMCreate de la TDM "http://www.tdmxoops.net"
  * ****************************************************************************
  * xfaq - MODULE FOR XOOPS AND IMPRESS CMS
  * Copyright (c) Mojtaba Jamali (http://mydolphin.ir)
@@ -23,15 +23,28 @@
  */
  
 //Config
-define("_MI_XFAQ_EDITOR","Editeur");
+define("_MI_XFAQ_EDITOR","Editor");
+define("_MI_XFAQ_REQUEST","Add Question");
+define("_MI_XFAQ_USER_FAQ","My Questions");
+//define("_MI_XFAQ_","");
+
+define("_AM_XFAQ_MANAGER_INDEX","List");
+define("_AM_XFAQ_MANAGER_ABOUT","About");
+define("_AM_XFAQ_MANAGER_PREFERENCES","Preferences");
+define("_AM_XFAQ_MANAGER_UPDATE","Update");
+define("_AM_XFAQ_MANAGER_PERMISSIONS","Permissions");
+
+//Index
+define("_AM_XFAQ_MANAGER_TOPIC","Topics");
+define("_AM_XFAQ_MANAGER_FAQ","FAQ");
 
 
 //Blocks
-define("_MI_XFAQ_TOPIC_BLOCK_RECENT","topic recents");
-define("_MI_XFAQ_TOPIC_BLOCK_DAY","topic d'aujourdh'ui");
-define("_MI_XFAQ_TOPIC_BLOCK_RANDOM","topic aleatoires");
-define("_MI_XFAQ_FAQ_BLOCK_RECENT","faq recents");
-define("_MI_XFAQ_FAQ_BLOCK_DAY","faq d'aujourdh'ui");
-define("_MI_XFAQ_FAQ_BLOCK_RANDOM","faq aleatoires");
+define("_MI_XFAQ_TOPIC_BLOCK_RECENT","Recent Topics");
+define("_MI_XFAQ_TOPIC_BLOCK_DAY","Today's Topic");
+define("_MI_XFAQ_TOPIC_BLOCK_RANDOM","Random Topic ");
+define("_MI_XFAQ_FAQ_BLOCK_RECENT","Recent FAQ");
+define("_MI_XFAQ_FAQ_BLOCK_DAY","Today's FAQ");
+define("_MI_XFAQ_FAQ_BLOCK_RANDOM","Random FAQ");
 
 ?>

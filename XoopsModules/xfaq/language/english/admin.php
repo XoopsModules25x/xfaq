@@ -1,7 +1,7 @@
 <?php
 /**
  * ****************************************************************************
- * Module généré par TDMCreate de la TDM "http://www.tdmxoops.net"
+ * Module gÃ©nÃ©rÃ© par TDMCreate de la TDM "http://www.tdmxoops.net"
  * ****************************************************************************
  * xfaq - MODULE FOR XOOPS AND IMPRESS CMS
  * Copyright (c) Mojtaba Jamali (http://mydolphin.ir)
@@ -25,70 +25,70 @@
 //Menu
 define("_AM_XFAQ_MANAGER_INDEX","Index");
 
-define("_AM_XFAQ_THEREARE_TOPIC","Il y a <span style=\"color: #ff0000; font-weight: bold\">%s</span> Topics dans la Base de donn&#233;e");
-define("_AM_XFAQ_THEREARE_TOPIC_ONLINE","Il y a <span style='color: #ff0000; font-weight: bold'>%s</span> Topics en attente");
-define("_AM_XFAQ_THEREARE_FAQ","Il y a <span style=\"color: #ff0000; font-weight: bold\">%s</span> Faqs dans la Base de donn&#233;e");
-define("_AM_XFAQ_THEREARE_FAQ_ONLINE","Il y a <span style='color: #ff0000; font-weight: bold'>%s</span> Faqs en attente");
+define("_AM_XFAQ_THEREARE_TOPIC","There are <span style=\"color: #ff0000; font-weight: bold\">%s</span> Topics in the Database");
+define("_AM_XFAQ_THEREARE_TOPIC_ONLINE","There are <span style='color: #ff0000; font-weight: bold'>%s</span> pending Topics");
+define("_AM_XFAQ_THEREARE_FAQ","There are <span style=\"color: #ff0000; font-weight: bold\">%s</span> Questions in the Database");
+define("_AM_XFAQ_THEREARE_FAQ_ONLINE","There are <span style='color: #ff0000; font-weight: bold'>%s</span> pending Questions");
 
-define("_AM_XFAQ_MANAGER_ABOUT","A propos");
+define("_AM_XFAQ_MANAGER_ABOUT","About");
 define("_AM_XFAQ_MANAGER_PREFERENCES","Preferences");
-define("_AM_XFAQ_MANAGER_UPDATE","Mise a jour");
+define("_AM_XFAQ_MANAGER_UPDATE","Update");
 define("_AM_XFAQ_MANAGER_PERMISSIONS","Permissions");
 
 //Index
-define("_AM_XFAQ_MANAGER_TOPIC","Topic");
-define("_AM_XFAQ_MANAGER_FAQ","Faq");
+define("_AM_XFAQ_MANAGER_TOPIC","Topics");
+define("_AM_XFAQ_MANAGER_FAQ","FAQ");
 
 
 //General
-define("_AM_XFAQ_FORMOK","Enregistre avec succes");
-define("_AM_XFAQ_FORMDELOK","Supprim&eacute; avec succ&egrave;s");
-define("_AM_XFAQ_FORMSUREDEL", "Etes-vous s&ucirc;r de vouloir supprimer : <b><span style=\"color : Red\"> %s </span></b>");
-define("_AM_XFAQ_FORMSURERENEW", "Etes-vous s&ucirc;r de vouloir renevouler : <b><span style=\"color : Red\"> %s </span></b>");
+define("_AM_XFAQ_FORMOK","Saved successfully");
+define("_AM_XFAQ_FORMDELOK","Deleted successfully");
+define("_AM_XFAQ_FORMSUREDEL", "Are you sure you want to delete: <b><span style=\"color : Red\"> %s </span></b>");
+define("_AM_XFAQ_FORMSURERENEW", "Are you sure you want update: <b><span style=\"color : Red\"> %s </span></b>");
 define("_AM_XFAQ_FORMUPLOAD","Upload");
-define("_AM_XFAQ_FORMIMAGE_PATH","Fichier present dans %s");
+define("_AM_XFAQ_FORMIMAGE_PATH","File in %s");
 define("_AM_XFAQ_FORMACTION","Action");
-define("_AM_XFAQ_OFF","Hors ligne");
-define("_AM_XFAQ_ON","En ligne");
-define("_AM_XFAQ_EDIT","Editer");
-define("_AM_XFAQ_DELETE","Supprimer");
-define("_AM_XFAQ_TOPIC_ADD","Ajouter un topic");
-define("_AM_XFAQ_TOPIC_EDIT","Editer un topic");
+define("_AM_XFAQ_OFF","Off");
+define("_AM_XFAQ_ON","Approved");
+define("_AM_XFAQ_EDIT","Edit");
+define("_AM_XFAQ_DELETE","Delete");
+define("_AM_XFAQ_TOPIC_ADD","Add new topic");
+define("_AM_XFAQ_TOPIC_EDIT","Edit topic");
 define("_AM_XFAQ_TOPIC_ID","Id");
-define("_AM_XFAQ_TOPIC_PID","Pid");
+define("_AM_XFAQ_TOPIC_PID","Parent");
 define("_AM_XFAQ_TOPIC_TITLE","Title");
-define("_AM_XFAQ_TOPIC_DESC","Desc");
-define("_AM_XFAQ_TOPIC_IMG","Img");
+define("_AM_XFAQ_TOPIC_DESC","Description");
+define("_AM_XFAQ_TOPIC_IMG","Image");
 define("_AM_XFAQ_TOPIC_WEIGHT","Weight");
 define("_AM_XFAQ_TOPIC_SUBMITTER","Submitter");
 define("_AM_XFAQ_TOPIC_DATE_CREATED","Date_created");
 define("_AM_XFAQ_TOPIC_ONLINE","Online");
-define("_AM_XFAQ_FAQ_NO_TOPIC","No topic exist for you to send questions.");
+define("_AM_XFAQ_FAQ_NO_TOPIC","No topic exist for you to add questions.");
 
-define("_AM_XFAQ_FAQ_ADD","Add new faq");
-define("_AM_XFAQ_FAQ_EDIT","Edit faq");
-define("_AM_XFAQ_FAQ_DELETE","Delete faq");
+define("_AM_XFAQ_FAQ_ADD","Add new FAQ");
+define("_AM_XFAQ_FAQ_EDIT","Edit Question");
+define("_AM_XFAQ_FAQ_DELETE","Delete Question");
 define("_AM_XFAQ_FAQ_ID","Id");
 define("_AM_XFAQ_FAQ_QUESTION","Question");
 define("_AM_XFAQ_FAQ_ANSWER","Answer");
 define("_AM_XFAQ_FAQ_TOPIC","Topic");
-define("_AM_XFAQ_FAQ_URL","Url");
+define("_AM_XFAQ_FAQ_URL","URL");
 define("_AM_XFAQ_FAQ_OPEN","Open");
-define("_AM_XFAQ_FAQ_ANSUSER","Ansuser");
-define("_AM_XFAQ_FAQ_SUBMITTER","Submitter");
-define("_AM_XFAQ_FAQ_DATE_CREATED","Date_created");
+define("_AM_XFAQ_FAQ_ANSUSER","Answered");
+define("_AM_XFAQ_FAQ_SUBMITTER","Submitted");
+define("_AM_XFAQ_FAQ_DATE_CREATED","Date created");
 define("_AM_XFAQ_FAQ_ONLINE","Online");
-define("_AM_XFAQ_FAQ_USER_FAQ","Your faqs");
+define("_AM_XFAQ_FAQ_USER_FAQ","Your FAQs");
 define("_AM_XFAQ_FAQ_USER_FAQ","You don't have permission to access this area.<br/>Please login!");
 define("_AM_XFAQ_FAQ_NO_ANSWER","There are no answer for this question until now!");
 
 //Blocks.php
-define("_AM_XFAQ_TOPIC_BLOCK_DAY","topics d'aujourdh'ui");
-define("_AM_XFAQ_TOPIC_BLOCK_RANDOM","topics aleatoires");
-define("_AM_XFAQ_TOPIC_BLOCK_RECENT","topics recents");
-define("_AM_XFAQ_FAQ_BLOCK_DAY","faqs d'aujourdh'ui");
-define("_AM_XFAQ_FAQ_BLOCK_RANDOM","faqs aleatoires");
-define("_AM_XFAQ_FAQ_BLOCK_RECENT","faqs recents");
+define("_AM_XFAQ_TOPIC_BLOCK_DAY","Today's Topics");
+define("_AM_XFAQ_TOPIC_BLOCK_RANDOM","Random Topics");
+define("_AM_XFAQ_TOPIC_BLOCK_RECENT","Recent Topics");
+define("_AM_XFAQ_FAQ_BLOCK_DAY","Today's FAQ");
+define("_AM_XFAQ_FAQ_BLOCK_RANDOM","Random FAQ");
+define("_AM_XFAQ_FAQ_BLOCK_RECENT","Recent FAQ");
 
 //Permissions
 define("_AM_XFAQ_PERMISSIONS_ACCESS","Permission for view");
@@ -97,9 +97,9 @@ define("_AM_XFAQ_PERMISSIONS_SUBMIT","Permission for submit");
 //About.php
 define("_AM_XFAQ_ABOUT_RELEASEDATE","Release Date");
 define("_AM_XFAQ_ABOUT_AUTHOR","Author");
-define("_AM_XFAQ_ABOUT_CREDITS","Crédits");
-define("_AM_XFAQ_ABOUT_README","Générale Information");
-define("_AM_XFAQ_ABOUT_MANUAL","Aide");
+define("_AM_XFAQ_ABOUT_CREDITS","Credits");
+define("_AM_XFAQ_ABOUT_README","General Information");
+define("_AM_XFAQ_ABOUT_MANUAL","Manual");
 define("_AM_XFAQ_ABOUT_LICENSE","Licence");
 define("_AM_XFAQ_ABOUT_MODULE_STATUS","Status");
 define("_AM_XFAQ_ABOUT_WEBSITE","Web Site");

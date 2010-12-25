@@ -1,7 +1,7 @@
 <?php
 /**
  * ****************************************************************************
- * Module généré par TDMCreate de la TDM "http://www.tdmxoops.net"
+ * Module gÃ©nÃ©rÃ© par TDMCreate de la TDM "http://www.tdmxoops.net"
  * ****************************************************************************
  * xfaq - MODULE FOR XOOPS AND IMPRESS CMS
  * Copyright (c) Mojtaba Jamali (http://mydolphin.ir)
